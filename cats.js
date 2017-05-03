@@ -6,8 +6,10 @@ $(function() {
       url: url,
       method: 'GET',
       // data:
-      dataType: 'json'   
+      dataType: 'json'
+    }).done(function(data) {
+      console.log("success!")
     })
-  })
+  });
 
-})
+});
